@@ -1,0 +1,18 @@
+.custom.mat-card{
+    margin: 20px 20px 0px 20px;
+}
+
+.horizontal{
+    display: flex;
+}
+
+.label{
+    margin-left: 30px;
+    margin-right: 5px;
+    font-style: bold;
+}
+
+.mat-card-header {
+    background-color: #006a4e;
+    padding-top: 20px;
+  }

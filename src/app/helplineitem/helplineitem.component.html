@@ -1,0 +1,31 @@
+<mat-card class='custom'>
+    <mat-card-header class="mat-card-header">
+        <mat-card-title>{{issueType}}</mat-card-title>
+        <mat-card-subtitle>{{mode}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <div>
+        <div class="horizontal">
+            <p class="label">Sender: </p>
+            <p> {{senderName}}</p>
+        </div>
+        <div class="horizontal">
+            <p class="label">Email: </p>
+            <p> {{senderEmail}}</p>
+        </div>
+        <div class="horizontal">
+            <p class="label">Time: </p>
+            <p> {{timestamp}}</p>
+        </div>
+        <div class="horizontal">
+            <p class="label">Content: </p>
+            <p> {{message}}</p>
+        </div>
+
+    </div>
+    <mat-card-actions>
+        <button mat-button>Mark as resolved</button>
+        <button mat-button>Delete</button>
+    </mat-card-actions>
+</mat-card>
+<br>

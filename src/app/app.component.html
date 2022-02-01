@@ -1,0 +1,13 @@
+<mat-toolbar color="green">
+  <mat-icon>local_fire_department</mat-icon>
+  <span>Atlas User Helpline</span>
+</mat-toolbar>
+<li class="text" *ngFor="let item of items | async">
+  <!-- <app-helplineitem [helplineItem]="item"></app-helplineitem> -->
+  <div class>
+    <app-helplineitem senderName={{item.senderName}} senderEmail={{item.senderEmail}} mode={{item.mode}}
+      issueType={{item.issueType}} operator={{item.operator}} ooperatorEmail={{item.ooperatorEmail}}
+      message={{item.message}} timestamp={{item.timestamp}}></app-helplineitem>
+  </div>
+
+</li>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "starplan-app2020": {
+      "hosting": {
+        "helpline": [
+          "starplan-app2020"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "starplan-app2020"
+  }
+}
